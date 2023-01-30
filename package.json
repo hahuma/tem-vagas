@@ -1,0 +1,71 @@
+{
+  "name": "temvagas20",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^4.5.10",
+    "@fontsource/source-sans-pro": "^4.5.11",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@mycure/vue-wysiwyg": "^1.3.0",
+    "@popperjs/core": "^2.11.6",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "datatables.net-bs5": "^1.13.1",
+    "datatables.net-vue3": "^2.0.0",
+    "date-fns": "^2.28.0",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.28",
+    "swiper": "^8.4.6",
+    "vue": "^3.2.45",
+    "vue-number-format": "^1.2.1",
+    "vue-router": "^4.1.6",
+    "vue-select": "^4.0.0-beta.3",
+    "vue-the-mask": "^0.11.1",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-clipboard": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "vite": "^4.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
