@@ -24,17 +24,17 @@ import VueNumberFormat from "vue-number-format";
 
 const app = createApp(App);
 
-app.use(createPinia());
-app.use(router);
-app.use(VueTheMask);
-// app.use(VueWysiwyg);
-app.use(VueNumberFormat, {
+app
+.use(router)
+.use(createPinia())
+.use(VueTheMask)
+// .use(VueWysiwyg);
+.use(VueNumberFormat, {
   prefix: "R$ ",
   decimal: ",",
   thousand: ".",
   precision: 2,
   acceptNegative: false,
-});
-app.component("v-select", VSelect);
-
-app.mount("#app");
+})
+.component("v-select", VSelect)
+.mount("#app");

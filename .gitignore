@@ -12,6 +12,7 @@ node_modules
 dist-ssr
 coverage
 *.local
+my-vue-app
 
 /cypress/videos/
 /cypress/screenshots/
